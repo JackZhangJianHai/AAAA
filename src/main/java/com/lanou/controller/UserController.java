@@ -20,7 +20,7 @@ public class UserController {
         return "userlist";
     }
 
-    //删除一条数据;
+    //删除一条数据;/阿斯蒂芬第三方士大夫士大夫接收到;看风景;
     //
     @RequestMapping("/delete")
     public String delete(Integer id) {
@@ -29,8 +29,12 @@ public class UserController {
     }
     public String login(){
         System.out.println(11);
+        System.out.println(11);
+        System.out.println(11);
+        System.out.println(11);
         return "aaa";
     }
+
 
 }
 
